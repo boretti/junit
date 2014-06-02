@@ -210,6 +210,7 @@ public class Theories extends BlockJUnit4ClassRunner {
                     
                     return getTestClass().getOnlyConstructor().newInstance(params);
                 }
+                
             }.methodBlock(fTestMethod).evaluate();
         }
 
@@ -255,4 +256,5 @@ public class Theories extends BlockJUnit4ClassRunner {
             successes++;
         }
     }
+    
 }
