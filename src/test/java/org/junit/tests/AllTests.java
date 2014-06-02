@@ -31,6 +31,7 @@ import org.junit.tests.experimental.parallel.ParallelClassTest;
 import org.junit.tests.experimental.parallel.ParallelMethodTest;
 import org.junit.tests.experimental.rules.BlockJUnit4ClassRunnerOverrideTest;
 import org.junit.tests.experimental.rules.ClassRulesTest;
+import org.junit.tests.experimental.rules.DeferredRuleTest;
 import org.junit.tests.experimental.rules.ExpectedExceptionTest;
 import org.junit.tests.experimental.rules.ExternalResourceRuleTest;
 import org.junit.tests.experimental.rules.MethodRulesTest;
@@ -147,6 +148,7 @@ import org.junit.tests.validation.ValidationTest;
         JUnit38SortingTest.class,
         MethodRulesTest.class,
         TestRuleTest.class,
+        DeferredRuleTest.class,
         TimeoutRuleTest.class,
         ParallelClassTest.class,
         ParallelMethodTest.class,
